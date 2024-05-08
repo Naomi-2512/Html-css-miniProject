@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | QR code component</title>
+  <style>
+  .contains{
+
+      background-color:white;
+      width: 30%;
+      border-radius: 10px;
+      padding: 10px;
+      margin: auto auto;
+
+      
+    }
+    .div1{
+      display: grid;
+      justify-content:centre;
+      background-color:hsl(212, 45%, 89%);
+      margin: 50px;
+      
+      height: 100vh;
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+      
+      
+      
+    }
+    .image{
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+    img{
+      width: 100%;
+      min-width: 200px;
+      border-radius: 10px;
+    }
+    .paragraph{
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      text-align: center;
+    }
+    .p1, .p2{
+font-size: 15;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+    .p2{
+font-weight: 400;
+color: hsl(220, 15%, 55%);
+
+    }
+  </style>
+</head>
+<body style="background-color:hsl(0, 0%, 100%) ">
+  <div class="div1">
+    <div class="contains">
+      <div class="image">
+        <img src="images/image-qr-code.png" alt="" >
+      </div>
+      <div class="paragraph" width:80%;>
+        <p class="p1">Improve your front-end skills by building projects </p>
+        <p class="p2">Scan the Qr code to visit Frontend Mentor and take your coding skills to the next level</p>
+      </div>
+     </div>
+  </div>
+
+ 
+</body>
+</html>
